@@ -1,0 +1,51 @@
+/*
+Theme Name: KC Frontend Theme
+Author: Keshav Choudhary
+Description: A custom frontend-focused WordPress theme.
+Version: 1.0
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+/* Dark Mode Styles */
+/* ===== FINAL WordPress Dark Mode Fix ===== */
+
+body.dark-mode {
+  background-color: #121212 !important;
+}
+
+/* Article container */
+body.dark-mode article {
+  background-color: #1e1e1e !important;
+}
+
+/* Post title (Block + Classic) */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode .entry-title,
+body.dark-mode .entry-title a,
+body.dark-mode .wp-block-post-title,
+body.dark-mode .wp-block-post-title a {
+  color: #ffffff !important;
+}
+
+/* Post content */
+body.dark-mode p,
+body.dark-mode .entry-content,
+body.dark-mode .entry-content p,
+body.dark-mode .wp-block-post-content,
+body.dark-mode .wp-block-post-content p {
+  color: #d0d0d0 !important;
+}
+
+/* Header & footer */
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
